@@ -1,4 +1,7 @@
 
 (set-background-color "white")
 
-(global-auto-revert-mode 1)
+;; Cucumber feature config
+(add-to-list 'load-path "~/.emacs.d/elisp/feature-mode")
+(require 'feature-mode)
+(add-to-list 'auto-mode-alist '("\.feature$" . feature-mode))

@@ -4,3 +4,6 @@
 [submodule "elisp/rspec-mode"]
 	path = elisp/rspec-mode
 	url = git://github.com/pezra/rspec-mode.git
+[submodule "elisp/rvm.el"]
+	path = elisp/rvm.el
+	url = git://github.com/senny/rvm.el.git

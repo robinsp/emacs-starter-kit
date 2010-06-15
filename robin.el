@@ -9,3 +9,8 @@
 ;; rspec-mode
 (add-to-list 'load-path "~/.emacs.d/elisp/rspec-mode")
 (require 'rspec-mode)
+
+;; rvm
+(add-to-list 'load-path "~/.emacs.d/elisp/rvm.el")
+(require 'rvm)
+(rvm-use-default)
